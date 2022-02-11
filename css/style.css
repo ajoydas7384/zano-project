@@ -1,0 +1,566 @@
+.header-search-text {
+	font-size: 14px;
+	color: #999999;
+	font-family: 'Poppins',sans-serif;
+	font-weight: 400;
+}
+
+.cart-text {
+	font-size: 12px;
+	color: #707070;
+}
+
+.cart-number {
+	color: #ff424f;
+}
+
+.slider-heading {
+	font-size: 55px;
+	font-family: 'Alata',sans-serif;
+	font-weight: 600;
+	margin-bottom: 35px;
+}
+
+.slider-text {
+	font-size: 15px;
+	font-family: 'Poppins',sans-serif;
+	font-weight: 400;
+	margin-bottom: 70px;
+}
+
+.text-sub-heading {
+	font-size: 25px;
+}
+
+.shop-btn {
+	color: black;
+    font-size: 14px;
+	font-family: 'Poppins',sans-serif;
+	font-weight: 500;
+    border: 2px solid red;
+    border-radius: 30px;
+    padding: 16px 32px;
+    background: transparent;
+}
+
+.shop-btn:hover {
+	background: red;
+	color: white;
+}
+
+.shop-btn:hover i {
+	color: white;
+}
+
+.button-arrow {
+	font-size: 14px;
+	color: black;
+	padding-left: 10px;
+}
+
+.content-heading h2 {
+	font-size: 20px;
+	font-family: 'Poppins',sans-serif;
+	font-weight: 600;
+	margin-bottom: 20px;
+	color: black;
+}
+
+.title {
+	font-size: 35px;
+	margin-bottom: 22px;
+}
+
+.sub-title {
+	font-size: 15px;
+	font-family: 'Poppins',sans-serif;
+	font-weight: 400;
+	margin-bottom: 50px;
+}
+
+.badge {
+	font-size: 14px;
+    background: red;
+    border-radius: 50%;
+    height: 46px;
+    width: 46px;
+    line-height: 46px;
+    float: left;
+    color: white;
+    padding: 0;
+	font-weight: 600;
+	font-family: 'alata',sans-serif;
+}
+
+.slider-badge {
+    background: red;
+    border: none;
+    width: max-content;
+    padding: 10px 12px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.product-badge {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.date-number {
+	font-family: 'poppins',sans-serif;
+	font-weight: 600;
+	color: black;
+	display: block;
+	font-size: 22px;
+}
+
+.date-text {
+	font-family: 'poppins',sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	color: #a6a6a6;
+}
+
+.product-price {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+
+
+
+
+
+
+
+/* ########################## HEADING ########################## */
+
+.project {
+	padding: 0 80px;
+	padding-top: 45px;
+}
+
+ul li {
+	margin: 0 10px;
+	display: inline-block;
+}
+
+.header-menu-icon {
+	padding: 0;
+}
+
+.header-area i {
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+	display: block!important;
+}
+
+.header-icon {
+	padding: 0;
+}
+
+.header-icon ul {
+	float: right;
+}
+
+.header-menu-bar ul li a:hover {
+	border-bottom: 2px solid red;
+	padding-bottom: 2.5px;
+}
+
+.header-menu-bar ul li a {
+	font-size: 14px;
+	text-decoration: none;
+	padding-bottom: 2px;
+	color: black;
+}
+
+.header-menu-bar .navbar {
+	padding-top: 30px;
+}
+
+.add-to-cart {
+	position: relative;
+}
+
+.add-to-cart:after{
+	content: "1";
+    background: red;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    color: white;
+    display: block;
+    position: absolute;
+    font-size: 12px;
+    text-align: center;
+    top: 30px;
+    left: 10px;
+    padding: 2px;
+}
+
+.wishlist {
+	position: relative;
+}
+
+.wishlist:after {
+	content: "2";
+}
+
+
+/* ######################### SLIDER ####################### */
+
+.slider	{
+	background-image: url(../images/slider-bg.png);
+	padding: 55px 0;
+}
+
+.slider-content {
+	padding-top: 155px;
+	padding-right: 200px;
+}
+
+.owl-prev {
+	float: left;
+    font-size: 68px !important;
+    color: white !important;
+    margin-left: -170px !important;
+    margin-top: -30% !important;
+}
+
+.owl-prev:hover {
+	background: transparent !important;
+}
+
+.owl-next {
+	float: right;
+	font-size: 70px!important;
+	color: white !important;
+	margin-top: -30% !important;
+	margin-right: -170px !important;
+}
+
+.owl-next:hover {
+	background: transparent !important;
+}
+
+.owl-theme .owl-nav {
+	margin-top: 0;
+}
+
+/* ################################################## */
+
+
+
+/* ############################ SHIPING-BOX-AREA ################################### */
+
+.shipping-boxs {
+	padding: 95px 34px;
+	text-align: center;
+}
+
+.shipping-boxs i {
+    font-size: 55px;
+    padding-bottom: 30px;
+}
+
+.box-contant {
+    border: 1px solid red;
+    padding: 45px 20px 35px;
+}
+
+.boxs-area:hover {
+	border: 1px solid #eeeeee;
+	padding: 20px;
+	margin: -21px;
+	box-shadow: 1px 1px 20px 5px #eeeeee;
+}
+
+/* ############################################################ */
+
+
+/* ###################################### PRODUCT-DETAILS #################### */
+
+.products {
+	height: 348px;
+	background-size: cover;
+	margin: 10px 0;
+	padding-top: 70px;
+}
+
+.product-one {
+	background-image: url(../images/HomePage-03.png);
+}
+
+.product-two {
+	background-image: url(../images/01_01_HomePage.png);
+}
+
+.product-three {
+	background-image: url(../images/HomePage-05.png);	
+}
+
+.product-four {
+	background-image: url(../images/HomePage-06.png);
+}
+
+.product-five {
+    background-image: url(../images/HomePage-04.png);
+    height: 716px;
+    margin-left: 24px;
+    margin-top: 10px;
+    background-repeat: round;
+    padding-top: 70px;
+    padding-left: 50px;
+}
+
+.products-details {
+	margin-bottom: 70px;
+}
+
+.product-name {
+	font-size: 15px;
+	font-weight: 400;
+	font-family: 'alata',sans-serif;
+	color: #707070;
+	margin-bottom: 5px;
+}
+
+.features-box {
+	background: #ebebeb;
+	height: 300px;
+	padding: 15px;
+}
+
+.features-box-price {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.features-details {
+	text-align: center;
+}
+
+.features-boxs .features-icon ul li:hover {
+	background: red;
+	color: white;
+	transition: 1s;
+}
+
+/* ##################################### DEAL OF THE WEEK ############################## */
+
+.deal-left {
+	background: #f9eadf;
+	padding: 20px;
+}
+
+.deal-right {
+	background: #e5f8ff;
+	padding: 20px;
+}
+
+.deal-right img {
+	float: right;
+	padding-right: 70px;
+}
+
+
+.deal-left img {
+	padding-left: 70px;
+}
+
+.deal-time {
+	justify-content: center;
+}
+
+.deal-timer {
+	background: white;
+    text-align: center;
+    height: 500px;
+    border-radius: 50%;
+    width: 500px;
+    margin-top: -540px;
+    padding: 65px 0;
+}
+
+.deal-timer h4 {
+	font-size: 35px;
+	padding-top: 15px;
+}
+
+.deal-timer ul {
+	padding-left: 0;
+}
+
+.deal-timer ul li {
+	display: inline-block;
+    height: 90px;
+    width: 90px;
+    background: #ededed;
+    border-radius: 50%;
+    margin: 10px;
+	padding: 10px;
+}
+
+.deal-timer ul li h2 {
+	margin: 0;
+	padding-top: 3px;
+	font-size: 35px;
+}
+
+.deal-timer .shop-btn {
+	margin-top: 30px;
+}
+
+
+/* ################################## NEWS ############################## */
+
+.news-area {
+	margin-top: 65px;
+}
+
+.news-time {
+	display: inherit;
+	font-size: 13px;
+}
+
+.news-content-area {
+	background: #e6e6e6;
+	padding: 0 10px 10px;
+}
+
+.news-content {
+	height: 290px;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.news-time i {
+	color: red;
+	padding-top: 3px;
+}
+
+.news-time p {
+    color: darkgray;
+    padding-left: 10px;
+}
+
+.news-text {
+	background: white;
+	padding: 20px 30px;
+}
+
+/* ############################## INSTRAGRAM-AREA ########################### */
+
+.instragram-area {
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.instragram-content:nth-child(odd){
+	background-color: #e6e6e6;
+}
+
+.instragram-content:nth-child(even){
+	background: #e1e1e1
+}
+
+.instragram-content {
+	height: 290px;
+	position: relative;
+}
+
+.instragram-content:hover {
+	background: #f68989;
+	color: white;
+	transition: 1s;
+}
+
+.instragram-content i {
+	height: 30px;
+	font-size: 30px;
+    width: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -15px;
+    margin-left: -15px;
+}
+
+/* ################################################### FOOOTER-AREA ############################## */
+
+.footer-content .badge {
+	color: white;
+    float: right;
+    width: 30px;
+    height: 30px;
+    background: red;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    padding: 0;
+}
+
+.footer-content {
+	margin-bottom: 25px;
+}
+
+.footer-content ul li , .footer-content p {
+	list-style: none;
+	font-size: 14px;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.footer-menu ul li {
+	display: block;
+}
+
+.logo {
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+
+.right-badge .badge {
+	margin-top: -90px;
+    margin-right: -25px;
+    color: white;
+    background: black;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+	float: right;
+}
+
+.gmail-area {
+	padding: 12px;
+}
+
+/* ############################ COPYRIGHT ########################### */
+
+.copyright {
+	padding: 0;
+	margin-top: 20px;
+}
+
+.copyright p {
+	font-size: 14px;
+	font-family: alata,sans-serif;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.copyright img {
+	height: 20px;
+}
+
+.copyright ul {
+	float: right;
+}
+
