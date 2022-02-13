@@ -1,6 +1,10 @@
+a {
+	text-decoration: none;
+}
+
 .header-search-text {
 	font-size: 14px;
-	color: #999999;
+	/* color: #999999; */
 	font-family: 'Poppins',sans-serif;
 	font-weight: 400;
 }
@@ -23,13 +27,16 @@
 
 .slider-text {
 	font-size: 15px;
-	font-family: 'Poppins',sans-serif;
+	font-family: 'alata',sans-serif;
 	font-weight: 400;
 	margin-bottom: 70px;
 }
 
 .text-sub-heading {
 	font-size: 25px;
+	margin-bottom: 35px;
+	font-family: alata,sans-serif;
+	font-weight: 600;
 }
 
 .shop-btn {
@@ -62,13 +69,19 @@
 	font-size: 20px;
 	font-family: 'Poppins',sans-serif;
 	font-weight: 600;
-	margin-bottom: 20px;
+	/* margin-bottom: 20px; */
 	color: black;
+}
+
+.footer-menu h2 {
+	margin-bottom: 30px;
 }
 
 .title {
 	font-size: 35px;
 	margin-bottom: 22px;
+	font-family: poppins,sans-serif;
+	font-weight: 600;
 }
 
 .sub-title {
@@ -138,10 +151,16 @@
 .project {
 	padding: 0 80px;
 	padding-top: 45px;
+	overflow-x: hidden;
+}
+
+ul {
+	padding-left: 0;
 }
 
 ul li {
-	margin: 0 10px;
+	margin: 0;
+	margin-right: 10px;
 	display: inline-block;
 }
 
@@ -158,6 +177,10 @@ ul li {
 	display: block!important;
 }
 
+.navbar-expand-lg .navbar-collapse ul li .active {
+	border-bottom: 2px solid red;
+}
+
 .header-icon {
 	padding: 0;
 }
@@ -166,16 +189,17 @@ ul li {
 	float: right;
 }
 
-.header-menu-bar ul li a:hover {
-	border-bottom: 2px solid red;
-	padding-bottom: 2.5px;
-}
-
 .header-menu-bar ul li a {
 	font-size: 14px;
 	text-decoration: none;
-	padding-bottom: 2px;
 	color: black;
+	margin-right: 20px;
+	font-weight: 600;
+	font-family: poppins,sans-serif;
+}
+
+.header-menu-bar ul li a:hover {
+	border-bottom: 2px solid red;
 }
 
 .header-menu-bar .navbar {
@@ -189,13 +213,13 @@ ul li {
 .add-to-cart:after{
 	content: "1";
     background: red;
-    width: 16px;
-    height: 16px;
+    width: 13px;
+    height: 13px;
     border-radius: 50%;
     color: white;
     display: block;
     position: absolute;
-    font-size: 12px;
+    font-size: 10px;
     text-align: center;
     top: 30px;
     left: 10px;
@@ -350,6 +374,12 @@ ul li {
 	transition: 1s;
 }
 
+/* ############################## FEATURES-PRODUCTS ################################ */
+
+.features-box ul li {
+	margin-right: 10px;
+}
+
 /* ##################################### DEAL OF THE WEEK ############################## */
 
 .deal-left {
@@ -496,15 +526,7 @@ ul li {
 /* ################################################### FOOOTER-AREA ############################## */
 
 .footer-content .badge {
-	color: white;
-    float: right;
-    width: 30px;
-    height: 30px;
-    background: red;
-    border-radius: 50%;
-    line-height: 30px;
-    text-align: center;
-    padding: 0;
+	font-size: 20px;
 }
 
 .footer-content {
@@ -518,28 +540,25 @@ ul li {
 	margin-bottom: 20px;
 }
 
-.footer-menu ul li {
-	display: block;
-}
-
 .logo {
-	padding-top: 5px;
-	padding-bottom: 15px;
+	margin-bottom: 30px;
 }
 
 .right-badge .badge {
-	margin-top: -90px;
+	margin-top: -150px;
     margin-right: -25px;
     color: white;
     background: black;
-    height: 35px;
-    width: 35px;
-    line-height: 35px;
 	float: right;
 }
 
 .gmail-area {
-	padding: 12px;
+	padding-top: 50px;
+	padding-left: 20px;
+}
+
+.gmail-area .badge {
+	float: right;
 }
 
 /* ############################ COPYRIGHT ########################### */
@@ -564,3 +583,195 @@ ul li {
 	float: right;
 }
 
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/* .shop-sideber {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	padding-left: 170px;
+	padding-right: 170px;
+} */
+
+.shop-heading {
+	padding: 30px 175px;
+	padding-bottom: 20px;
+	margin-bottom: 80px;
+}
+
+.shop-sideber .header-menu-bar .navbar {
+	padding-top: 0;
+}
+
+.shop-sideber .header-area i {
+	padding-top: 0;
+}
+
+.shop-sideber .add-to-cart:after {
+    content: "1";
+    background: red;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    color: white;
+    display: block;
+    position: absolute;
+    font-size: 10px;
+    text-align: center;
+    top: 10px;
+    left: 8px;
+    padding: 2px;
+}
+
+.shop-sideber .shop-heading .navbar ul {
+	margin-bottom: 0;
+}
+
+.shop-sideber .active {
+	color: red;
+}
+
+.shop-sideber .wishlist:after {
+    content: "2";
+}
+
+/* HEADER-LEFT */
+
+/* .shop-categories ul li {
+	display: block;
+	font-weight: 600;
+	margin: 10px;
+	margin-left: 0;
+} */
+
+.shop-left-content ul li {
+	font-size: 16px;
+}
+
+.shop-left-content span {
+	font-size: 16px;
+	display: block;
+	font-family: poppins,sans-serif;
+	font-weight: 300;
+}
+
+.size-area ul li {
+	padding: 10px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	font-family: poppins,sans-serif;
+	font-weight: 300;
+}
+
+.shop-product-rating ul li {
+	margin: 0;
+}
+
+.product-rating {
+	margin-bottom: 15px;
+}
+
+.product-rating ul {
+	margin-bottom: 0;
+}
+
+.color-area p i {
+	margin-right: 10px;
+}
+
+.shop-categories p {
+	font-family: poppins,sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.categories p:hover {
+	color: red;
+}
+
+.header-navbar ul ul {
+	display: none;
+	position: absolute;
+	margin-top: 10px;
+}
+
+.navbar {
+	padding-top: 0;
+}
+
+.navbar-nav p {
+	margin-right: 20px;
+}
+
+ul ul li {
+	display: block;
+}
+
+.header-navbar ul li:hover ul {
+	display: block;
+}
+
+.header-navbar li a {
+	color: black;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.header-navbar li a i {
+	margin-left: 10px;
+}
+
+.header-navbar ul ul li {
+	width: 100px;
+	padding: 5px 10px;
+	margin-bottom: 5px;
+	background: red;
+}
+
+.header-navbar ul ul li a {
+	color: white;
+}
+
+.header-navbar ul ul li:hover {
+	background: white;
+	border: 1px solid red;
+}
+
+.header-navbar ul ul li:hover a {
+	color: red;
+}
+
+.shop-right-menu-ber {
+	text-align: end;
+}
+
+.shop-right-menu-ber i {
+	margin-right: 10px;
+	font-size: 25px;
+}
+
+.shop-categories span {
+	font-weight: 600;
+}
+
+.shop-right-content {
+	margin-bottom: 80px;
+}
+
+.product-policy {
+	padding: 50px 0;
+	margin-bottom: 50px;
+}
+
+.product-policy i {
+	color: red;
+	font-size: 22px;
+	padding: 20px 0;
+}
+
+.shop-sideber .right-badge .badge {
+	margin-right: 50px;
+}

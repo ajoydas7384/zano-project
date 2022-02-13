@@ -4,40 +4,555 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Shop-Sideber</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/fontawesome.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Alata&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 	<link rel="stylesheet" href="css/all.css">
-	<link rel="stylesheet" type="css/style.css">
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body class="shop-sideber">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-3">
-				<img src="images/project-logo.png" alt="">
+	<section class="container-fluid border-bottom shop-heading">
+		<div class="row header-area">
+			<div class="col-3 header-logo">
+				<img src="images/project-logo.png" alt="project-logo">
 			</div>
 
-			<div class="col-5 index-logo">
-				<nav class="navbar navbar-expand-lg navbar-light">
-			    	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-						<span><i class="fas fa-bars"></i></span>
-					</button>
-					<div class="collapse navbar-collapse" id="navbarNav">
-						<ul class="navbar-nav">
-							<li><a href="index.html">HOME</a></li>
-							<li><a href="#">PAGES</a></li>
-							<li><a href="#">PORTFOLIO</a></li>
-							<li class="active"><a href="shop-sideber.html">SHOP</a></li>
-							<li><a href="#">BLOG</a></li>
-							<li><a href="#">CONTACT</a></li>
+			<div class="col-5 text-center">
+				<div class="header-menu-bar">
+					<nav class="navbar navbar-expand-lg navbar-light">
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+							<span><i class="fas fa-bars"></i></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNav">
+							<ul>
+								<li><a href="index.html">HOME</a></li>
+								<li><a href="#">PAGES</a></li>
+								<li><a href="#">PORTFOLIO</a></li>
+								<li><a class="active" href="shop-sideber.html">SHOP</a></li>
+								<li><a href="#">BLOG</a></li>
+								<li><a href="#">CONTACT</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+
+			<div class="col-4 header-icon">
+				<ul class="text-muted">
+					<li class="header-search-text">Start Searching.....</li>
+					<li><i class="fas fa-search"></i></li>
+					<li><i class="far fa-heart add-to-cart"></i></li>
+					<li><i class="far fa-clipboard add-to-cart wishlist"></i></li>
+					<li class="cart-text me-0">Cart: <span class="cart-number">$245</span></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section class="container">
+		<div class="row">
+			<section class="col-12 col-lg-3 shop-left-content">
+				<div class="row shop-categories categories">
+					<div class="col-12">
+						<h2 class="text-sub-heading">Categories</h2>
+						<p class="active">Furniture</p>
+						<p>lighting</p>
+						<p>Decor</p>
+						<p>Textiles</p>
+						<p>Exterior</p>
+						<p>Houseware</p>
+						<p>Other</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-12">
+						<h2 class="text-sub-heading mt-3">Price</h2>
+					</div>
+				</div>
+
+				<div class="row color-area shop-categories">
+					<div class="col-12">
+						<h2 class="text-sub-heading mt-3">Colors</h2>
+						<p><i class="fas fa-circle text-info"></i>White</p>
+						<p><i class="fas fa-circle text-secondary"></i>Gray</p>
+						<p><i class="fas fa-circle text-danger"></i>Red</p>
+						<p><i class="fas fa-circle text-dark"></i>Black</p>
+						<p><i class="fas fa-circle text-primary"></i>Blue</p>
+						<p><i class="fas fa-circle text-success"></i>Green</p>
+					</div>
+				</div>
+
+				<div class="row size-area">
+					<div class="col-12">
+						<h2 class="text-sub-heading mt-3">Size</h2>
+						<ul>
+							<li class="bg-light">L</li>
+							<li class="bg-light">M</li>
+							<li class="bg-light">S</li>
+							<li class="bg-light">XL</li>
+							<li class="bg-light">XXL</li>
+							<li class="bg-light">Over Size</li>
 						</ul>
 					</div>
-				</nav>
+				</div>
+
+				<div class="row shop-product-rating">
+					<div class="col-12">
+						<h2 class="text-sub-heading mt-3">Products</h2>
+						<div class="row product-rating">
+							<div class="col-4">
+								<img src="images/Shop_Sidebar-left-img.png" alt="">
+							</div>
+							<div class="col-8">
+								<span>Desk Lamp</span>
+								<span class="text-danger">$22.99</span>
+								<ul>
+									<li><i class="fas fa-star text-warning"></i></li>
+									<li><i class="fas fa-star text-warning"></i></li>
+									<li><i class="fas fa-star text-warning"></i></li>
+									<li><i class="fas fa-star text-warning"></i></li>
+									<li><i class="fas fa-star-half-alt text-warning"></i></li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="row product-rating">
+							<div class="col-4">
+								<img src="images/Shop_Sidebar-left-img.png" alt="">
+							</div>
+							<div class="col-8">
+								<span>Retrostar Footstool</span>
+								<span class="text-danger">$51.00</span>
+								<ul>
+									<li><i class="fas fa-star text-warning"></i></li>
+									<li><i class="fas fa-star text-warning"></i></li>
+									<li><i class="fas fa-star text-warning"></i></li>
+									<li><i class="fas fa-star text-warning"></i></li>
+									<li><i class="fas fa-star-half-alt text-warning"></i></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-4">
+								<img src="images/Shop_Sidebar-left-img.png" alt="">
+							</div>
+							<div class="col-8">
+								<span>Carft Pendant Lamp</span>
+								<span class="text-danger">$51.00</span>
+								<ul>
+									<li><i class="fas fa-star text-warning"></i></li>
+									<li><i class="fas fa-star text-warning"></i></li>
+									<li><i class="fas fa-star text-warning"></i></li>
+									<li><i class="fas fa-star text-warning"></i></li>
+									<li><i class="fas fa-star-half-alt text-warning"></i></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row size-area">
+					<div class="col-12">
+						<h2 class="text-sub-heading mt-5">Tags</h2>
+						<ul>
+							<li class="bg-light">ALL PRO</li>
+							<li class="bg-light">LIGHT</li>
+							<li class="bg-light">DECK</li>
+							<li class="bg-light">CHAIR</li>
+							<li class="bg-light">DECOR</li>
+							<li class="bg-light">MINIMALISM</li>
+							<li class="bg-light">TEXTILES</li>
+							<li class="bg-light">FURNITURE</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+	<!-- right-content-start -->
+
+			<section class="col-12 col-lg-9 shop-right-content">
+				<div class="row">
+					<div class="col-4">
+						<p class="title">Shop Sidebar</p>
+						<div class="shop-categories">
+							<p class="text-muted"><span class="text-dark">Home - </span>Shop</p>
+						</div>
+					</div>
+
+					<div class="col-3 shop-categories">
+						<p class="text-muted"><span class="text-dark">12</span> Products found</p>
+					</div>
+
+					<div class="col-3">
+						<nav class="navbar navbar-wrapper navbar-expand-lg navbar-light">
+							<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+								<span><i class="fas fa-ellipsis-h"></i></span>
+							</button>
+
+							<div class="collapse header-navbar navbar-collapse" id="navbarNav">
+								<ul class="navbar-nav shop-categories">
+									<p class="text-muted">Sort By</p>
+									<li><a href="#">Default<i class="fas fa-chevron-down"></i></a>
+										<ul>
+											<li><a href="#">Time</a></li>
+											<li><a href="#">Date</a></li>
+										</ul>
+									</li>	
+								</ul>
+							</div>
+						</nav>
+					</div>
+
+					<div class="col-2 shop-right-menu-ber">
+						<i class="fas fa-th-large text-danger"></i>
+						<i class="fas fa-bars text-muted m-0"></i>
+					</div>
+				</div>
+
+				<!-- FEATURES-AREA -->
+
+	<!-- 1st row -->
+
+				<div class="row text-center">
+					<div class="col-12">
+						<div class="row text-center">
+							<div class="col-6 col-lg-4">
+								<div class="features-box"></div>
+								<div class="features-box-price"">
+									<p class="product-name">Small From Barstool</p>
+									<h6 class="product-price">$28.00</h6>
+								</div>
+							</div>
+
+							<div class="col-6 col-lg-4">
+								<div class="features-box">
+									<div class="row">
+										<div class="col-12">
+											<span class="badge text-muted bg-white float-end"><i class="far fa-heart"></i></span>
+										</div>
+									</div>
+				
+									<div class="row">
+										<div class="col-12">
+											<ul>
+												<li class="badge bg-white text-muted"><i class="fas fa-search"></i></li>
+												<li class="badge"><i class="far fa-clipboard"></i></li>
+												<li class="badge bg-white text-muted"><i class="fas fa-exchange-alt"></i></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+				
+								<div class="features-box-price">
+									<p class="product-name">Small Plate Set</p>
+									<h6 class="product-price">$29.00</h6>
+								</div>
+							</div>
+
+							<div class="col-6 col-lg-4">
+								<div class="features-box">
+									<div class="row">
+										<div class="col-12">
+											<span class="badge">-20%</span>
+										</div>
+									</div>
+				
+									<div class="row">
+										<div class="col-12">
+											<ul class="bg-white p-2">
+												<li>
+													<span class="date-number">23</span>
+													<span class="date-text">DAYS</span>
+												</li>
+												<li>
+													<span>:</span>
+												</li>
+												<li>
+													<span class="date-number">15</span>
+													<span class="date-text">HOURS</span>
+												</li>
+												<li>
+													<span>:</span>
+												</li>
+												<li>
+													<span class="date-number">45</span>
+													<span class="date-text">MINS</span>
+												</li>
+												<li>
+													<span>:</span>
+												</li>
+												<li>
+													<span class="date-number">55</span>
+													<span class="date-text text-secondary">SECS</span>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+				
+								<div class="features-box-price">
+									<p class="product-name">Small Plate Set</p>
+									<h6 class="product-price"><del class="text-muted">$29.00</del> <span class="text-danger">$18.00</span></h6>
+								</div>
+							</div>
+						</div>
+
+			<!-- 2nd row -->
+
+						<div class="row">
+							<div class="col-6 col-lg-4">
+								<div class="features-box"></div>
+								<div class="features-box-price">
+									<p class="product-name">Medusa Side Table</p>
+									<h6 class="product-price">$36.00</h6>
+								</div>
+							</div>
+							
+							<div class="col-6 col-lg-4">
+								<div class="features-box">
+									<div>
+										<span class="badge bg-success">New</span>
+									</div>
+								</div>
+								<div class="features-box-price">
+									<p class="product-name">Option Chair</p>
+									<h6 class="product-price">$24.00</h6>
+								</div>
+							</div>
+				
+							<div class="col-6 col-lg-4">
+								<div class="features-box">
+									
+								</div>
+								<div class="features-box-price">
+									<p class="product-name">Boking Dish-Mint</p>
+									<h6 class="product-price">$16.00</h6>
+								</div>
+							</div>
+						</div>
+
+			<!-- 3rd row -->
+
+						<div class="row">
+							<div class="col-6 col-lg-4">
+								<div class="features-box"></div>
+								<div class="features-box-price">
+									<p class="product-name">Medusa Side Table</p>
+									<h6 class="product-price">$36.00</h6>
+								</div>
+							</div>
+							
+							<div class="col-6 col-lg-4">
+								<div class="features-box"></div>
+								<div class="features-box-price">
+									<p class="product-name">Option Chair</p>
+									<h6 class="product-price">$24.00</h6>
+								</div>
+							</div>
+				
+							<div class="col-6 col-lg-4">
+								<div class="features-box">
+									
+								</div>
+								<div class="features-box-price">
+									<p class="product-name">Boking Dish-Mint</p>
+									<h6 class="product-price">$16.00</h6>
+								</div>
+							</div>
+						</div>
+
+			<!-- 4th row -->
+
+						<div class="row">
+							<div class="col-6 col-lg-4">
+								<div class="features-box"></div>
+								<div class="features-box-price">
+									<p class="product-name">Medusa Side Table</p>
+									<h6 class="product-price">$36.00</h6>
+								</div>
+							</div>
+							
+							<div class="col-6 col-lg-4">
+								<div class="features-box"></div>
+								<div class="features-box-price">
+									<p class="product-name">Option Chair</p>
+									<h6 class="product-price">$24.00</h6>
+								</div>
+							</div>
+				
+							<div class="col-6 col-lg-4">
+								<div class="features-box"></div>
+								<div class="features-box-price">
+									<p class="product-name">Boking Dish-Mint</p>
+									<h6 class="product-price">$16.00</h6>
+								</div>
+							</div>
+						</div>
+
+			<!-- 5th row -->
+
+						<div class="row">
+							<div class="col-6 col-lg-4">
+								<div class="features-box"></div>
+								<div class="features-box-price">
+									<p class="product-name">Medusa Side Table</p>
+									<h6 class="product-price">$36.00</h6>
+								</div>
+							</div>
+							
+							<div class="col-6 col-lg-4">
+								<div class="features-box"></div>
+								<div class="features-box-price">
+									<p class="product-name">Option Chair</p>
+									<h6 class="product-price">$24.00</h6>
+								</div>
+							</div>
+				
+							<div class="col-6 col-lg-4">
+								<div class="features-box">
+									
+								</div>
+								<div class="features-box-price">
+									<p class="product-name">Boking Dish-Mint</p>
+									<h6 class="product-price">$16.00</h6>
+								</div>
+							</div>
+	<!--5th end -->		</div>
+						
+						<div class="col-12">
+							<p class="text-muted product-name"><i class="fas fa-spinner"></i> LOAD MORE</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</section>
+
+	<section class="product-policy bg-light">
+		<div class="container">
+			<div class="row">
+				<div class="col-3">
+					<div class="row">
+						<div class="col-2">
+							<i class="fas fa-truck"></i>
+						</div>
+						<div class="col-10 content-heading">
+							<h2>Free Delivary</h2>
+							<p class="product-name">For all order over 99$</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="row">
+						<div class="col-2">
+							<i class="fas fa-exchange-alt"></i>
+						</div>
+						<div class="col-10 content-heading">
+							<h2>30 Days Return</h2>
+							<p class="product-name">If goods have Problem</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="row">
+						<div class="col-2">
+							<i class="fas fa-credit-card"></i>
+						</div>
+						<div class="col-10 content-heading">
+							<h2>Secure Payment</h2>
+							<p class="product-name">100% secure payment</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-3">
+					<div class="row">
+						<div class="col-2">
+							<i class="fas fa-headset"></i>
+						</div>
+						<div class="col-10 content-heading">
+							<h2>24/7 Support</h2>
+							<p class="product-name">Dedicated support</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- footer-area -->
+
+	<section class="container border-bottom p-0">
+		<div class="row content-heading text-muted footer-content footer-menu">
+			<div class="col-6 col-lg-3">
+				<img class="logo" src="images/project-logo.png" alt="project-logo">
+				<p>Address: 184 Main Collins Street</p>
+				<p>Phone: (619) 888 999</p>
+				<p>Email: support@zano.com</p>
+				<p>Web: www.zano.furniture.com</p>
+			</div>
+			<div class="col-6 col-lg-3">
+				<h2>Company</h2>
+					<p>About</p>
+					<p>Offers</p>
+					<p>Contact</p>
+					<p>Help & FAQ</p>
 			</div>
 
-			<div class="col-4"></div>
+			<div class="col-6 col-lg-3">
+				<h2>Useful Links</h2>
+				<p>Privacy Protection</p>
+				<p>Safe Payments</p>
+				<p>Term of Service</p>
+				<p>Privacy Policy</p>
+			</div>
+
+			<div class="col-6 col-lg-3">
+				<h2>Newslwtter</h2>
+				<p>Stay Updated on all that's new add noteworthy</p>
+				<div class="row gmail-area">
+					<div class="col-6">
+						<p>Email</p>
+					</div>
+
+					<div class="col-6">
+						<div class="badge"><span><i class="fab fa-telegram-plane"></i></span></div>
+					</div>
+				</div>
+			</div>
 		</div>
-	</div>	
+	</section>
+
+	<div class="right-badge">
+		<div class="badge"><span><i class="fas fa-arrow-up"></i></span></div>
+	</div>
+
+
+	<section class="container copyright">
+		<div class="row">
+			<div class="col-12 col-lg-6 text-muted">
+				<p>Copyright © 2019 <b>Zano.</b> All rights reserved</p>
+			</div>
+
+			<div class="col-6 d-none d-md-block pe-0">
+				<ul>
+					<li><img src="images/master-card.png" alt=""></li>
+					<li><img src="images/Visa_Inc._logo.svg.png" alt=""></li>
+					<li><img src="images/Discover-logo.png" alt=""></li>
+					<li><img src="images/bank-building.png" alt=""></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	
+	<!-- <script type="text/javascript" src="js/bootstrap.js"></script>	 -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
