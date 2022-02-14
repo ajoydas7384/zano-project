@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check-Out</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Alata&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="shop-sideber">
+    <section class="container-fluid border-bottom shop-heading">
+		<div class="row header-area">
+			<div class="col-3">
+				<img src="images/project-logo.png" alt="project-logo">
+			</div>
+
+			<div class="col-5 text-center">
+				<div class="header-menu-bar">
+					<nav class="navbar navbar-expand-lg navbar-light pt-0 pb-0">
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+							<span><i class="fas fa-bars"></i></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNav">
+							<ul>
+								<li><a href="index.html">HOME</a></li>
+								<li><a href="#">PAGES</a></li>
+								<li><a href="#">PORTFOLIO</a></li>
+								<li><a class="active" href="shop-sidebar.html">SHOP</a></li>
+								<li><a href="#">BLOG</a></li>
+								<li><a href="#">CONTACT</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+
+			<div class="col-4 header-icon">
+				<ul class="text-muted">
+					<li class="header-search-text">Start Searching.....</li>
+					<li><i class="fas fa-search"></i></li>
+					<li><i class="far fa-heart add-to-cart"></i></li>
+					<li><i class="far fa-clipboard add-to-cart wishlist"></i></li>
+					<li class="cart-text me-0">Cart: <span class="cart-number">$245</span></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+    <!-- check-out-area -->
+
+    <section class="container shop-categories">
+        <div class="row text-center">
+            <div class="col-12">
+                <h2 class="title">Check Out</h2>
+                <p class="text-muted"><span class="text-dark">Home - </span>Shop</p>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-8 billing-details">
+				<div class="row">
+					<div class="col-12 mb-5">
+						<h2 class="product-title">Billing Details</h2>
+					</div>
+				
+					<div class="col-6">
+						<p>First Name <sup><i class="fas fa-star"></i></sup></p>
+						<input type="name">
+					</div>
+					<div class="col-6">
+						<p>Last Name <sup><i class="fas fa-star"></i></sup></p>
+						<input type="name">
+					</div>
+<!-- Country -->
+					<div class="col-12">
+						<p>Country <sup><i class="fas fa-star"></i></sup></p>
+						<input type="text">
+<!-- Address -->
+						<p>Address <sup><i class="fas fa-star"></i></sup></p>
+						<input type="text" placeholder="Street Address">
+						<input type="text" placeholder="Apartment,suit,unit etc (optional)">
+<!-- Town -->
+						<p>Town/City <sup><i class="fas fa-star"></i></sup></p>
+						<input type="text">
+<!-- Country -->
+						<p>ountry/State <sup><i class="fas fa-star"></i></sup></p>
+						<input type="text">
+<!-- Postcode -->
+						<p>Postcode/Zip <sup><i class="fas fa-star"></i></sup></p>
+						<input type="text">
+<!-- Phone -->
+						<div class="row">
+							<div class="col-6">
+								<p>phone <sup><i class="fas fa-star"></i></sup></p>
+								<input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+							</div>
+							<div class="col-6">
+								<p>Email <sup><i class="fas fa-star"></i></sup></p>
+								<input type="email">
+							</div>
+						</div>
+
+						<input type="checkbox" checked>Creat an account?
+						<p>Create an account by entering the information below. If you are a returning customer</p>
+						<p>Account password <sup><i class="fas fa-star"></i></sup></p>
+						<input type="password"> 
+
+						<label><input type="checkbox" checked>Ship to a different address?</label>
+						<p>Order note <sup><i class="fas fa-star"></i></sup></p>
+						<input type="text" placeholder="Notes about your order, e.g. special notes for delivery.">
+					</div>
+				</div>
+			</div>
+
+			<div class="col-4">
+				<div class="order-details">
+					<h2 class="product-title border-bottom border-secondary pb-3">Your Order</h2>
+
+					<div class="product-price">
+						<p class="pb-3">Products <span>Total</span></p>
+						<p class="sub-title">Leather shoper bag <span>$75.99</span></p>
+						<p class="sub-title">Pocket linen shirt <span>$151.99</span></p>
+						<p class="sub-title">Buckle Warp shirt <span>$53.99</span></p>
+					</div>
+					<div>
+						<p class="product-price border-bottom border-secondary pb-3">Subtotal <span>$750.99</span></p>
+					</div>
+					<div>
+						<p class="product-price border-bottom border-secondary pb-3">total <span class="text-danger">$750.99</span></p>
+					</div>
+					<div>
+						<label><input type="checkbox" checked>Creat an account?</label>
+						<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adip elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<label><input type="checkbox">Cheque Payment</label><br>
+						<label><input type="checkbox">PayPal</label>
+					</div>
+					<div>
+						<input type="submit" value="PLACE ORDER">
+					</div>
+				</div>
+			</div>
+        </div>
+    </section>
+
+    <!-- product-policy -->
+
+    <section class="product-policy bg-light">
+		<div class="container">
+			<div class="row">
+				<div class="col-3">
+					<i class="float-start fas fa-truck"></i>
+					<div class="content-heading">
+						<h2>Free Delivary</h2>
+						<p class="product-name">For all order over 99$</p>
+					</div>
+				</div>
+				<div class="col-3">
+					<i class="float-start fas fa-exchange-alt"></i>
+
+					<div class="content-heading">
+						<h2>30 Days Return</h2>
+						<p class="product-name">If goods have Problem</p>
+					</div>
+				</div>
+				<div class="col-3">
+					<i class="float-start fas fa-credit-card"></i>
+
+					<div class="content-heading">
+						<h2>Secure Payment</h2>
+						<p class="product-name">100% secure payment</p>
+					</div>
+				</div>
+				<div class="col-3">
+					<i class="float-start fas fa-headset"></i>
+					<div class="content-heading">
+						<h2>24/7 Support</h2>
+						<p class="product-name">Dedicated support</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+    <!-- footer-area -->
+
+    <section class="container border-bottom p-0">
+		<div class="row content-heading text-muted footer-content footer-menu">
+			<div class="col-6 col-lg-3">
+				<img class="logo" src="images/project-logo.png" alt="project-logo">
+				<p>Address: 184 Main Collins Street</p>
+				<p>Phone: (619) 888 999</p>
+				<p>Email: support@zano.com</p>
+				<p>Web: www.zano.furniture.com</p>
+			</div>
+			<div class="col-6 col-lg-3">
+				<h2>Company</h2>
+				<p>About</p>
+				<p>Offers</p>
+				<p>Contact</p>
+				<p>Help & FAQ</p>
+			</div>
+
+			<div class="col-6 col-lg-3">
+				<h2>Useful Links</h2>
+				<p>Privacy Protection</p>
+				<p>Safe Payments</p>
+				<p>Term of Service</p>
+				<p>Privacy Policy</p>
+			</div>
+
+			<div class="col-6 col-lg-3">
+				<h2>Newslwtter</h2>
+				<p>Stay Updated on all that's new add noteworthy</p>
+				<div class="gmail-area">
+					<p class="float-start">Email</p>
+					<div class="badge"><span><i class="fab fa-telegram-plane"></i></span></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="right-badge">
+		<div class="badge"><span><i class="fas fa-arrow-up"></i></span></div>
+	</div>
+
+
+	<section class="container copyright">
+		<div class="row">
+			<div class="col-12 col-lg-6 text-muted">
+				<p>Copyright © 2019 <b>Zano.</b> All rights reserved</p>
+			</div>
+
+			<div class="col-6 d-none d-md-block pe-0">
+				<ul>
+					<li><img src="images/master-card.png" alt=""></li>
+					<li><img src="images/Visa_Inc._logo.svg.png" alt=""></li>
+					<li><img src="images/Discover-logo.png" alt=""></li>
+					<li><img src="images/bank-building.png" alt=""></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

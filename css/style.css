@@ -139,6 +139,11 @@ a {
 	font-weight: 600;
 }
 
+.product-title {
+	font-size: 24px;
+	font-weight: 600;
+}
+
 
 
 
@@ -155,7 +160,8 @@ a {
 }
 
 ul {
-	padding-left: 0;
+	padding: 0;
+	margin: 0;
 }
 
 ul li {
@@ -357,6 +363,15 @@ ul li {
 	background: #ebebeb;
 	height: 300px;
 	padding: 15px;
+	position: relative;
+}
+
+.features-box-timer {
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+	right: 20px;
+	bottom: 20px;
 }
 
 .features-box-price {
@@ -378,6 +393,10 @@ ul li {
 
 .features-box ul li {
 	margin-right: 10px;
+}
+
+.features-box-timer .badge {
+	float: none;
 }
 
 /* ##################################### DEAL OF THE WEEK ############################## */
@@ -602,10 +621,6 @@ ul li {
 	margin-bottom: 80px;
 }
 
-.shop-sideber .header-menu-bar .navbar {
-	padding-top: 0;
-}
-
 .shop-sideber .header-area i {
 	padding-top: 0;
 }
@@ -769,9 +784,76 @@ ul ul li {
 .product-policy i {
 	color: red;
 	font-size: 22px;
-	padding: 20px 0;
+	padding: 20px;
 }
 
 .shop-sideber .right-badge .badge {
 	margin-right: 50px;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+		/* CHECK-OUT */
+
+input[type=text], input[type=password], input[type=name], input[type=email], input[type=tel], input[type=submit] {
+	width: 100%;
+	margin-bottom: 25px;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-family: poppins, sans-serif;
+	border: 1px solid #f5f5f5;
+}
+
+input[type=submit] {
+	width: 100%;
+	background: red;
+	color: white;
+	border: none;
+	opacity: .6;
+}
+
+input[type=checkbox], input[type=radio] {
+	margin-right: 10px;
+	margin-bottom: 25px;
+}
+
+.billing-details i {
+	font-size: 5px;
+	color: red;
+}
+
+.order-details {
+	padding: 40px;
+	background: #f5f5f5;
+}
+
+.order-details .sub-title {
+	margin-bottom: 30px;
+}
+
+.billing-details {
+	padding-right: 30px;
+}
+
+.order-details span {
+	float: right;
+}
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+    /* REGISTER */
+
+.login-area p:hover {
+	color: red;
+	transition: .5s;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+		/* FORGOT */
+
+.forgot-logo img {
+	width: 300px;
+	margin-top: 200px;
 }
