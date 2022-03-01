@@ -830,9 +830,9 @@ input[type=checkbox], input[type=radio] {
 	margin-bottom: 30px;
 }
 
-.billing-details {
+/* .billing-details {
 	padding-right: 30px;
-}
+} */
 
 .order-details span {
 	float: right;
