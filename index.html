@@ -4,13 +4,13 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Home</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Alata&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsive.css">
 </head>
@@ -18,23 +18,25 @@
 <body class="project">
 	<section class="container-fluid">
 		<div class="row header-area">
-			<div class="col-3 d-none d-md-block header-menu-icon">
+			<div class="col-3 d-none d-lg-block header-menu-icon">
 				<i class="fas fa-bars"></i>
 			</div>
 
-			<div class="col-12 col-md-6 text-center">
+			<div class="col-lg-6 text-lg-center p-0">
 				<div class="row">
-					<div class="col-12 header-logo">
-						<img src="images/project-logo.png" alt="project-logo">
+					<div class="col-4 col-lg-12">
+						<div class="header-logo">
+							<img src="images/project-logo.png" alt="project-logo">
+						</div>
 					</div>
 					
-					<div class="col-12 col-lg-12 header-menu-bar">
+					<div class="col-8 col-lg-12 header-menu-bar">
 						<nav class="navbar navbar-expand-lg navbar-light">
 					    	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 								<span><i class="fas fa-bars"></i></span>
 							</button>
-							<div class="collapse navbar-collapse" id="navbarNav">
-								<ul>
+							<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+								<ul class="navbar-nav">
 									<li><a class="active" href="index.html">HOME</a></li>
 									<li><a href="#">PAGES</a></li>
 									<li><a href="#">PORTFOLIO</a></li>
@@ -49,7 +51,7 @@
 			</div>
 
 
-			<div class="col-12 col-md-3 header-icon">
+			<div class="col-lg-3 header-icon">
 				<ul class="text-muted">
 					<li class="header-search-text">Start Searching.....</li>
 					<li><i class="fas fa-search"></i></li>
@@ -64,11 +66,22 @@
 	<section class="slider">
 		<div class="container">
 			<div class="row">
-				<div class="col">
+				<div class="col-12">
 					<div class="owl-carousel owl-theme">
 						<div class="row items">
-							<div class="col-7 slider-content">
-								<p class="slider-badge text-white">#NEW ARRIVALS</p>
+							<div class="col-lg-6 col-xl-7 slider-content">
+								<p class="slider-badge">#NEW ARRIVALS</p>
+								<h2 class="slider-heading">Best Designs of Furniture Collections</h2>
+								<p class="slider-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+								<button class="shop-btn">SHOP NOW <i class="fas fa-arrow-right button-arrow"></i></button>
+							</div>
+							<div class="col-lg-5 slider-img">
+								<img src="images/slider-img.png" alt="slider-img">
+							</div>
+						</div>
+						<div class="row items">
+							<div class="col-lg-6 col-xl-7 slider-content">
+								<p class="slider-badge bg-success">#NEW ARRIVALS</p>
 								<h2 class="slider-heading">Best Designs of Furniture Collections</h2>
 								<p class="slider-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
 								<button class="shop-btn">SHOP NOW <i class="fas fa-arrow-right button-arrow"></i></button>
@@ -78,19 +91,8 @@
 							</div>
 						</div>
 						<div class="row items">
-							<div class="col-7 slider-content">
-								<p class="slider-badge text-white bg-success">#NEW ARRIVALS</p>
-								<h2 class="slider-heading">Best Designs of Furniture Collections</h2>
-								<p class="slider-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
-								<button class="shop-btn">SHOP NOW <i class="fas fa-arrow-right button-arrow"></i></button>
-							</div>
-							<div class="col-5 slider-img">
-								<img src="images/slider-img.png" alt="slider-img">
-							</div>
-						</div>
-						<div class="row items">
-							<div class="col-7 slider-content">
-								<p class="slider-badge text-white bg-primary">#NEW ARRIVALS</p>
+							<div class="col-lg-6 col-xl-7 slider-content">
+								<p class="slider-badge bg-primary">#NEW ARRIVALS</p>
 								<h2 class="slider-heading">Best Designs of Furniture Collections</h2>
 								<p class="slider-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
 								<button class="shop-btn">SHOP NOW <i class="fas fa-arrow-right button-arrow"></i></button>
@@ -109,32 +111,38 @@
 
 	<section class="container">
 		<div class="row content-heading">
-			<div class="col-12 col-md-4 shipping-boxs">
-				<div class="boxs-area">
-					<div class="box-contant">
-						<i class="fas fa-shipping-fast"></i>
-						<h2>Free Shipping</h2>
-						<p class="slider-text mb-0">Plus, enjoy speedy 2-day delivery on thousands of items</p>
+			<div class="col-md-4">
+				<div class="shipping-boxs">
+					<div class="boxs-area">
+						<div class="box-contant">
+							<i class="fas fa-shipping-fast"></i>
+							<h2>Free Shipping</h2>
+							<p class="slider-text mb-0">Plus, enjoy speedy 2-day delivery on thousands of items</p>
+						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-12 col-md-4 shipping-boxs">
-				<div class="boxs-area">
-					<div class="box-contant">
-						<i class="fas fa-shopping-basket"></i>
-						<h2>Amazing Deals</h2>
-						<p class="slider-text mb-0">Daily sales mean you always save (even when you splurge)</p>
+			<div class="col-md-4">
+				<div class="shipping-boxs">
+					<div class="boxs-area">
+						<div class="box-contant">
+							<i class="fas fa-shopping-basket"></i>
+							<h2>Amazing Deals</h2>
+							<p class="slider-text mb-0">Daily sales mean you always save (even when you splurge)</p>
+						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-12 col-md-4 shipping-boxs">
-				<div class="boxs-area">
-					<div class="box-contant">
-						<i class="fas fa-certificate"></i>
-						<h2>Expert Customer</h2>
-						<p class="slider-text mb-0">No robots here! Our friendly team is on hand 7 days a week</p>
+			<div class="col-md-4">
+				<div class="shipping-boxs">
+					<div class="boxs-area">
+						<div class="box-contant">
+							<i class="fas fa-certificate"></i>
+							<h2>Expert Customer</h2>
+							<p class="slider-text mb-0">No robots here! Our friendly team is on hand 7 days a week</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -145,14 +153,12 @@
 
 	<section class="container-fluid products-details">
 		<div class="row">
-			<div class="col-12 col-lg-8 p-0">
+			<div class="col-lg-8">
 				<div class="row">
-					<div class="col-12 col-lg-7">
+					<div class="col-md-6 col-lg-7">
 						<div class="product-one products">
 							<div class="row">
-								<div class="col-7"></div>
-
-								<div class="col-5">
+								<div class="col">
 									<p class="text-danger product-badge">#NEW ARRIVALS</p>
 									<h2 class="text-sub-heading">Retrostar Footstool</h2>
 									<p class="text-muted product-badge">SHOP NOW <i class="fas fa-arrow-right button-arrow text-muted"></i></p>
@@ -161,12 +167,10 @@
 						</div>
 					</div>
 
-					<div class="col-12 col-lg-5">
+					<div class="col-md-6 col-lg-5">
 						<div class="product-two products">
 							<div class="row">
-								<div class="col-7"></div>
-
-								<div class="col-5">
+								<div class="col">
 									<p class="text-danger product-badge">#FEATURED</p>
 									<h2 class="text-sub-heading">Siena Tray</h2>
 									<p class="text-muted product-badge">SHOP NOW <i class="fas fa-arrow-right button-arrow text-muted"></i></p>
@@ -177,11 +181,10 @@
 				</div>
 
 				<div class="row">
-					<div class="col-12 col-lg-5">
+					<div class="col-md-6 col-lg-5">
 						<div class="product-three products">
 							<div class="row">
-								<div class="col-6"></div>								
-								<div class="col-6">
+								<div class="col">
 									<p class="text-danger product-badge">#MOST PROPULAR</p>
 									<h2 class="text-sub-heading">Areli Pendant</h2>
 									<p class="text-muted product-badge">SHOP NOW <i class="fas fa-arrow-right button-arrow text-muted"></i></p>
@@ -190,12 +193,10 @@
 						</div>
 					</div>
 
-					<div class="col-12 col-lg-7">
+					<div class="col-md-6 col-lg-7">
 						<div class="product-four products">
 							<div class="row">
-								<div class="col-7"></div>
-
-								<div class="col-5">
+								<div class="col">
 									<p class="text-danger product-badge">#HOT COLLECTION</p>
 									<h2 class="text-sub-heading">Gaston Wall Desk</h2>
 									<p class="text-muted product-badge">SHOP NOW <i class="fas fa-arrow-right button-arrow text-muted"></i></p>
@@ -206,7 +207,7 @@
 				</div>
 			</div>
 
-			<div class="col-12 col-lg-4 p-0">
+			<div class="col-lg-4">
 				<div class="product-five">
 					<p class="text-danger product-badge">#TRENDING NOW</p>
 					<h2 class="text-sub-heading mb-4">Atalaia Pouf</h2>
@@ -220,14 +221,14 @@
 
 	<section class="container text-center featured-area pb-5">
 		<div class="row features-heading">
-			<div class="col-12 col-lg-6 offset-lg-3">
+			<div class="col-lg-6 offset-lg-3">
 				<h2 class="title">Featured Products</h2>
 				<p class="text-muted sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
 			</div>
 		</div>
 
 		<div class="row">
-			<div class="col-6 col-lg-3">
+			<div class="col-sm-6 col-lg-4 col-xl-3">
 				<div class="features-box">
 					<span class="badge">-20%</span>
 
@@ -268,7 +269,7 @@
 				</div>
 			</div>
 
-			<div class="col-6 col-lg-3">
+			<div class="col-sm-6 col-lg-4 col-xl-3">
 				<div class="features-box">
 					<span class="badge text-muted bg-white float-end"><i class="far fa-heart"></i></span>
 					
@@ -287,7 +288,7 @@
 				</div>
 			</div>
 
-			<div class="col-6 col-lg-3">
+			<div class="col-sm-6 col-lg-4 col-xl-3">
 				<div class="features-box">
 					<span class="badge bg-success">New</span>
 				</div>
@@ -297,17 +298,17 @@
 				</div>
 			</div>
 
-			<div class="col-6 col-lg-3">
+			<div class="col-sm-6 col-lg-4 col-xl-3">
 				<div class="features-box"></div>
-				<div class="features-box-price"">
+				<div class="features-box-price">
 					<p class="product-name">Small From Barstool</p>
 					<h6 class="product-price">$28.00</h6>
 				</div>
 			</div>
-		</div>		
+		<!-- </div>		
 
-		<div class="row">
-			<div class="col-6 col-lg-3">
+		<div class="row"> -->
+			<div class="col-sm-6 col-lg-4 col-xl-3">
 				<div class="features-box"></div>
 				<div class="features-box-price">
 					<p class="product-name">Medusa Side Table</p>
@@ -315,7 +316,7 @@
 				</div>
 			</div>
 			
-			<div class="col-6 col-lg-3">
+			<div class="col-sm-6 col-lg-4 col-xl-3">
 				<div class="features-box">
 					<span class="badge bg-success">New</span>
 				</div>
@@ -325,7 +326,7 @@
 				</div>
 			</div>
 
-			<div class="col-6 col-lg-3">
+			<div class="col-sm-6 col-lg-4 col-xl-3">
 				<div class="features-box"></div>
 				<div class="features-box-price">
 					<p class="product-name">Boking Dish-Mint</p>
@@ -333,7 +334,7 @@
 				</div>
 			</div>
 
-			<div class="col-6 col-lg-3">
+			<div class="col-sm-6 col-lg-4 col-xl-3">
 				<div class="features-box">
 					<span class="badge">-15%</span>
 				</div>
@@ -347,13 +348,13 @@
 
 	<!-- PRODUCT-DEALS -->
 
-	<section class="container-fluid">
+	<section class="container-fluid d-none d-lg-block">
 		<div class="row products-deal">
-			<div class="col-6 deal-left">
+			<div class="col-lg-6 deal-left">
 				<img src="images/HomePage-02.png" alt="">
 			</div>
 
-			<div class="col-6 deal-right">
+			<div class="col-lg-6 deal-right">
 				<img src="images/HomePage-01.png" alt="">
 			</div>
 		</div>	
@@ -363,7 +364,7 @@
 
 	<section class="container">
 		<div class="row deal-time">
-			<div class="col-4 deal-timer">
+			<div class="col-lg-4 deal-timer">
 				<button class="slider-badge text-white">#MANOR FARNITURE</button>
 				<h4 class="title">Deal of The Week</h4>
 
@@ -396,20 +397,20 @@
 
 	<!-- NEWS -->
 
-	<section class="container text-center news-area">
-		<div class="row">
-			<div class="col-12 col-lg-6 offset-lg-3">
+	<section class="container news-area">
+		<div class="row text-center">
+			<div class="col-lg-6 offset-lg-3">
 				<h2 class="title">Latest News</h2>
 				<p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
 			</div>
 		</div>
 
 		<div class="row">
-			<div class="col-12 col-lg-4">
+			<div class="col-lg-4">
 				<div class="news-content-area">
 					<div class="news-content"></div>
 
-					<div class="news-text content-heading"">
+					<div class="news-text content-heading">
 						<div class="row">
 							<div class="col-6 news-time">
 								<i class="far fa-calendar-check"></i>
@@ -426,7 +427,7 @@
 				</div>
 			</div>
 
-			<div class="col-12 col-lg-4">
+			<div class="col-lg-4">
 				<div class="news-content-area">
 					<div class="news-content"></div>
 
@@ -447,7 +448,7 @@
 				</div>
 			</div>
 
-			<div class="col-12 col-lg-4">
+			<div class="col-lg-4">
 				<div class="news-content-area">
 					<div class="news-content"></div>
 
@@ -474,85 +475,136 @@
 
 	<section class="container-fluid instragram-area">
 		<div class="row content-heading">
-			<div class="col-12 col-lg-8 offset-lg-2">
+			<div class="col-lg-8 offset-lg-2">
 				<h1 class="text-sub-heading">Follow Instragram</h1>
 				<h2 class="text-danger">@Zana.Furniture</h2>
 			</div>
 		</div>
 
 		<div class="row instragram-banner">
-			<div class="col-4 col-lg-2 instragram-content">
-				<i class="fab fa-instagram"></i>
-			</div>
-
-			<div class="col-4 col-lg-2 instragram-content">
-				<i class="fab fa-instagram"></i>
-			</div>
-
-			<div class="col-4 col-lg-2 instragram-content">
-				<i class="fab fa-instagram"></i>
-			</div>
-
-			<div class="col-4 col-lg-2 instragram-content">
-				<i class="fab fa-instagram"></i>
-			</div>
-
-			<div class="col-4 col-lg-2 instragram-content">
-				<i class="fab fa-instagram"></i>
-			</div>
-
-			<div class="col-4 col-lg-2 instragram-content">
-				<i class="fab fa-instagram"></i>
+			<div class="col">
+				<div class="owl-carousel instra-carousel owl-theme">
+					<div class="items">
+						<div class="instragram-content">
+							<i class="fab fa-instagram"></i>
+						</div>
+					</div>
+					<div class="items">
+						<div class="instragram-content">
+							<i class="fab fa-instagram"></i>
+						</div>
+					</div>
+					<div class="items">
+						<div class="instragram-content">
+							<i class="fab fa-instagram"></i>
+						</div>
+					</div>
+					<div class="items">
+						<div class="instragram-content">
+							<i class="fab fa-instagram"></i>
+						</div>
+					</div>
+					<div class="items">
+						<div class="instragram-content">
+							<i class="fab fa-instagram"></i>
+						</div>
+					</div>
+					<div class="items">
+						<div class="instragram-content">
+							<i class="fab fa-instagram"></i>
+						</div>
+					</div>
+					<div class="items">
+						<div class="instragram-content">
+							<i class="fab fa-instagram"></i>
+						</div>
+					</div>
+					<div class="items">
+						<div class="instragram-content">
+							<i class="fab fa-instagram"></i>
+						</div>
+					</div>
+					<div class="items">
+						<div class="instragram-content">
+							<i class="fab fa-instagram"></i>
+						</div>
+					</div>
+					<div class="items">
+						<div class="instragram-content">
+							<i class="fab fa-instagram"></i>
+						</div>
+					</div>
+					<div class="items">
+						<div class="instragram-content">
+							<i class="fab fa-instagram"></i>
+						</div>
+					</div>
+					<div class="items">
+						<div class="instragram-content">
+							<i class="fab fa-instagram"></i>
+						</div>
+					</div>
+					<div class="items">
+						<div class="instragram-content">
+							<i class="fab fa-instagram"></i>
+						</div>
+					</div>
+					<div class="items">
+						<div class="instragram-content">
+							<i class="fab fa-instagram"></i>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
 
 	<!-- FOOTER-AREA -->
 
-	<section class="container border-bottom p-0">
-		<div class="row content-heading text-muted footer-content footer-menu">
-			<div class="col-6 col-lg-3">
+	<section class="container border-bottom">
+		<div class="row text-muted footer-area">
+			<div class="col-sm-6 col-lg-3">
 				<img class="logo" src="images/project-logo.png" alt="project-logo">
-				<p>Address: 184 Main Collins Street</p>
-				<p>Phone: (619) 888 999</p>
-				<p>Email: support@zano.com</p>
-				<p>Web: www.zano.furniture.com</p>
+				<a href="#">Address: 184 Main Collins Street</a>
+				<a href="tel:619 888 999">Phone: (619) 888 999</a>
+				<a href="support@zano.com">Email: support@zano.com</a>
+				<a href="www.zano.furniture.com">Web: www.zano.furniture.com</a>
 			</div>
-			<div class="col-6 col-lg-3">
+			<div class="col-sm-6 col-lg-3">
 				<h2>Company</h2>
-				<p>About</p>
-				<p>Offers</p>
-				<p>Contact</p>
-				<p>Help & FAQ</p>
+				<a href="#">About</a>
+				<a href="#">Offers</a>
+				<a href="#">Contact</a>
+				<a href="#">Help & FAQ</a>
 			</div>
 
-			<div class="col-6 col-lg-3">
+			<div class="col-sm-6 col-lg-3">
 				<h2>Useful Links</h2>
-				<p>Privacy Protection</p>
-				<p>Safe Payments</p>
-				<p>Term of Service</p>
-				<p>Privacy Policy</p>
+				<a href="#">Privacy Protection</a>
+				<a href="#">Safe Payments</a>
+				<a href="#">Term of Service</a>
+				<a href="#">Privacy Policy</a>
 			</div>
 
-			<div class="col-6 col-lg-3">
+			<div class="col-sm-6 col-lg-3">
 				<h2>Newslwtter</h2>
 				<p>Stay Updated on all that's new add noteworthy</p>
 				<div class="gmail-area">
 					<p class="float-start">Email</p>
-					<div class="badge"><span><i class="fab fa-telegram-plane"></i></span></div>
+					<span class="badge"><i class="fab fa-telegram-plane"></i></span>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<div class="right-badge">
+	<div class="right-badge d-none d-lg-block">
 		<div class="badge"><span><i class="fas fa-arrow-up"></i></span></div>
 	</div>
 
 
 	<section class="container copyright">
 		<div class="row">
-			<div class="col-12 col-lg-6 text-muted">
+			<div class="col-md-6 text-muted">
 				<p>Copyright © 2019 <b>Zano.</b> All rights reserved</p>
 			</div>
 
@@ -567,9 +619,9 @@
 		</div>
 	</section>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-    <script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script>
         $(document).ready(function(){
             $(".owl-carousel").owlCarousel({
                 items: 1,
@@ -581,7 +633,64 @@
             });
         });
     </script>
-	<!-- <script type="text/javascript" src="js/bootstrap.js"></script> -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+	<script>
+		$(document).ready(function(){
+			$(".instra-carousel").owlCarousel({
+				items: 6,
+				autoplay : true,
+				autoplayTimeout : 2000,
+				nav : true,
+				dots : false,
+				loop : true,
+				margin: 10,
+
+				responsive:{
+					0:{
+						items:1,
+					},
+
+					800:{
+						items:2,
+					},
+
+					1200:{
+						items:6,
+					}
+
+				}
+			});
+		});
+	</script>
+
+	<!-- <script type="text/javascript">
+		$('.instra-carousel').owlCarousel({
+			items:6,
+			loop:true,
+			margin:30,
+			autoplay:true,
+			autoplayHoverPause:true,
+			nav:false,
+			dots:false,
+			autoplayTimeout:1000,
+
+			responsive:{
+				0:{
+					items:4,
+					nav:true,
+					dots:false
+				},
+				600:{
+					items:3
+				},
+				1000:{
+					items:6
+				}
+			}
+		})
+	</script> -->
+
+	
+	
 </body>
 </html>

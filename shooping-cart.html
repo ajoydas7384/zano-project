@@ -5,24 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping Cart</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Alata&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsive.css">
 </head>
 <body class="shop-sideber">
     <section class="container-fluid border-bottom shop-heading">
 		<div class="row header-area">
-			<div class="col-3">
+			<div class="col-6 col-lg-2 col-xl-3">
 				<img src="images/project-logo.png" alt="project-logo">
 			</div>
 
-			<div class="col-5 text-center">
+			<div class="col-6 col-xl-5 text-center">
 				<div class="header-menu-bar">
 					<nav class="navbar navbar-expand-lg navbar-light pt-0 pb-0">
 						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -42,7 +42,7 @@
 				</div>
 			</div>
 
-			<div class="col-4 header-icon">
+			<div class="col-12 col-lg-4 header-icon">
 				<ul class="text-muted">
 					<li class="header-search-text">Start Searching.....</li>
 					<li><i class="fas fa-search"></i></li>
@@ -57,10 +57,109 @@
     <!-- .shopping-cart-area -->
 
     <section class="container">
-        <div class="text-center shop-categories">
-			<h2 class="title">Shopping Cart</h2>
-			<p class="text-muted"><span class="text-dark">Home - </span>Shop</p>
-        </div>
+        <div class="row">
+			<div class="col">
+				<div class="text-center shop-categories">
+					<h2 class="title">Shopping Cart</h2>
+					<p class="text-muted"><span class="text-dark">Home - </span>Shop</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row text-center">
+			<div class="col-6 col-lg-4">
+				<div class="features-box"></div>
+				<div class="features-box-price"">
+					<p class="product-name">Small From Barstool</p>
+					<h6 class="product-price">$28.00</h6>
+				</div>
+			</div>
+
+			<div class="col-6 col-lg-4">
+				<div class="features-box">
+					<span class="badge text-muted bg-white float-end"><i class="far fa-heart"></i></span>
+
+					<div class="features-box-timer">
+						<ul>
+							<li class="badge bg-white text-muted"><i class="fas fa-search"></i></li>
+							<li class="badge"><i class="far fa-clipboard"></i></li>
+							<li class="badge bg-white text-muted"><i class="fas fa-exchange-alt"></i></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="features-box-price">
+					<p class="product-name">Small Plate Set</p>
+					<h6 class="product-price">$29.00</h6>
+				</div>
+			</div>
+
+			<div class="col-6 col-lg-4">
+				<div class="features-box">
+					<span class="badge">-20%</span>
+						<div class="features-box-timer">
+						<ul class="bg-white p-2">
+							<li>
+								<span class="date-number">23</span>
+								<span class="date-text">DAYS</span>
+							</li>
+							<li>
+								<span>:</span>
+							</li>
+							<li>
+								<span class="date-number">15</span>
+								<span class="date-text">HOURS</span>
+							</li>
+							<li>
+								<span>:</span>
+							</li>
+							<li>
+								<span class="date-number">45</span>
+								<span class="date-text">MINS</span>
+							</li>
+							<li>
+								<span>:</span>
+							</li>
+							<li>
+								<span class="date-number">55</span>
+								<span class="date-text text-secondary">SECS</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="features-box-price">
+					<p class="product-name">Small Plate Set</p>
+					<h6 class="product-price"><del class="text-muted">$29.00</del> <span class="text-danger">$18.00</span></h6>
+				</div>
+			</div>
+
+			<div class="col-6 col-lg-4">
+				<div class="features-box"></div>
+				<div class="features-box-price">
+					<p class="product-name">Medusa Side Table</p>
+					<h6 class="product-price">$36.00</h6>
+				</div>
+			</div>
+			
+			<div class="col-6 col-lg-4">
+				<div class="features-box">
+					<span class="badge bg-success">New</span>
+				</div>
+				<div class="features-box-price">
+					<p class="product-name">Option Chair</p>
+					<h6 class="product-price">$24.00</h6>
+				</div>
+			</div>
+
+			<div class="col-6 col-lg-4">
+				<div class="features-box"></div>
+				<div class="features-box-price">
+					<p class="product-name">Boking Dish-Mint</p>
+					<h6 class="product-price">$16.00</h6>
+				</div>
+			</div>
+		</div>
     </section>
 
     <!-- product-policy -->
@@ -68,7 +167,7 @@
     <section class="product-policy bg-light">
 		<div class="container">
 			<div class="row">
-				<div class="col-3">
+				<div class="col-6 col-lg-3">
 					<i class="float-start fas fa-truck"></i>
 
 					<div class="content-heading">
@@ -76,7 +175,7 @@
 						<p class="product-name">For all order over 99$</p>
 					</div>
 				</div>
-				<div class="col-3">
+				<div class="col-6 col-lg-3">
 					<i class="float-start fas fa-exchange-alt"></i>
 
 					<div class="content-heading">
@@ -84,7 +183,7 @@
 						<p class="product-name">If goods have Problem</p>
 					</div>
 				</div>
-				<div class="col-3">
+				<div class="col-6 col-lg-3">
 					<i class="float-start fas fa-credit-card"></i>
 
 					<div class="content-heading">
@@ -92,7 +191,7 @@
 						<p class="product-name">100% secure payment</p>
 					</div>
 				</div>
-				<div class="col-3">
+				<div class="col-6 col-lg-3">
 					<i class="float-start fas fa-headset"></i>
 
 					<div class="content-heading">
@@ -107,7 +206,7 @@
 
     <!-- footer-area -->
 
-    <section class="container border-bottom p-0">
+    <section class="container border-bottom">
 		<div class="row content-heading text-muted footer-content footer-menu">
 			<div class="col-6 col-lg-3">
 				<img class="logo" src="images/project-logo.png" alt="project-logo">
@@ -165,6 +264,6 @@
 		</div>
 	</section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>

@@ -4,6 +4,40 @@
 		float: none;
 	}
 
+	.header-menu-bar .navbar {
+		padding-top: 0;
+		float: right;
+	}
+
+	/* .header-menu-bar {
+		float: right;
+	} */
+
+	.slider {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.slider-content {
+		padding-top: 0;
+		padding-right: 0;
+		padding-bottom: 20px;
+	}
+
+	.slider-heading {
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+
+	.slider-text {
+		margin-bottom: 25px;
+	}
+
+	.header-icon {
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+
 	.banner-left-text {
 		width: 100%;
 	}
@@ -20,6 +54,7 @@
 	.shipping-boxs {
 		margin-top: 25px;
 		margin-bottom: 0;
+		padding: 0;
 	}
 
 	.shipping-boxs:hover {
@@ -27,14 +62,19 @@
 		margin-top: 25px;
 	}
 
+	.products {
+		height: 215px;
+		padding: 25px;
+	}
+
 	.product-one {
-		margin-bottom: 25px;
+		/* margin-bottom: 25px; */
 		margin-top: 25px;
 	}
 
-	.product-four {
+	/* .product-four {
 		margin-bottom: 25px;
-	}
+	} */
 
 	.features-box-timer h6 {
 		font-size: 16px;
@@ -61,10 +101,18 @@
 
 	.deal-timer {
 		margin-top: 0;
-		height: 200px;
-		width: 210px;
-		padding: 20px 0;
+		height: 270px;
+		width: 270px;
+		padding: 30px 0;
 		border: 1px solid red;
+	}
+
+	.news-content-area {
+		margin-bottom: 20px;
+	}
+
+	.news-content {
+		height: 200px;
 	}
 
 	.shop-btn {
@@ -88,16 +136,16 @@
 		padding-bottom: 0;
 	}
 
-	.instragram-banner :nth-child(n+1):nth-child(-n+3){
+	/* .instragram-banner :nth-child(n+1):nth-child(-n+3){
 		margin-bottom: 20px;
-	}
+	} */
 
 	.products-helpline .pl-left {
 		padding-left: 50px;
 	}
 
 	.copyright p {
-		font-size: 10px;
+		font-size: 12px;
 	}
 
 	.news-boxs {
@@ -138,26 +186,340 @@
 	.deal-timer .shop-btn {
 		margin-top: 0;
 	}
+
+	/* ABOUT-US */
+
+	.shop-heading {
+		padding: 10px 15px;
+		margin-bottom: 40px;
+	}
+
+	.choose-video {
+		margin-bottom: 40px;
+	}
+
+	/* CHEACK-OUT */
+
+	.product-policy {
+		margin-top: 20px;
+	}
+
+	.content-heading {
+		margin-bottom: 40px;
+	}
+
+	.content-heading h2 {
+		font-size: 18px;
+	}
+
+	/* SHOP-SIDEBER */
+
+	.date-number {
+		font-size: 12px;
+	}
+
+	.date-text {
+		font-size: 10px;
+	}
+
+	/* COMMING-SOON */
+
+	.comming-soon-area h2 {
+		font-size: 60px;
+	}
+
+	.comming-soon-area p {
+		font-size: 20px;
+	}
+
+	.comming-soon-area .date-number {
+		font-size: 40px;
+	}
+
+	.comming-soon-area .date-text {
+		font-size: 16px;
+	}
+
+	.comming-soon img {
+		margin-top: 40px;
+	}
 }
 
 
 /*// Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px)
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.header-icon {
+		margin-top: -40px;
+	}
+
+	.slider-content {
+		padding-top: 0;
+		padding-right: 0;
+		padding-bottom: 20px;
+	}
+
+	.slider-text {
+		margin-bottom: 40px;
+	}
+
+	.shipping-boxs {
+		padding: 0;
+		margin-top: 40px;
+	}
+
+	.deal-timer {
+		margin-top: 0;
+		border: 1px solid gray;
+		height: 400px;
+		width: 400px;
+		padding: 50px 0;
+	}
+
+	.header-menu-bar .navbar {
+		padding-top: 0;
+		float: right;
+	}
+
+	.deal-timer ul li {
+		height: 70px;
+		width: 70px;
+	}
+
+	.deal-timer ul li h2 {
+		font-size: 25px;
+	}
+
+	.date-text {
+		font-size: 10px;
+	}
+
+	.news-content-area {
+		margin-bottom: 20px;
+	}
+
+	.instragram-area {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+
+	/* ABOUT-US */
+
+	.shop-heading {
+		padding: 30px 15px 0px;
+	}
+
+	.header-icon {
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+
+	.shop-heading {
+		margin-bottom: 40px;
+	}
+
+	.banner-title {
+		margin-bottom: 30px;
+	}
+
+	/* CHEACK-OUT */
+
+	.product-policy {
+		margin-top: 20px;
+	}
+
+	.content-heading {
+		margin-bottom: 40px;
+	}
+
+	.content-heading h2 {
+		font-size: 18px;
+	}
+
+	/* COMMING-SOON */
+
+	.comming-soon-area h2 {
+		font-size: 80px;
+	}
+
+	.comming-soon-area p {
+		font-size: 25px;
+	}
+
+	.comming-soon-area .date-number {
+		font-size: 50px;
+	}
+
+	.comming-soon-area .date-text {
+		font-size: 18px;
+	}
+
+	.comming-soon img {
+		margin-top: 40px;
+	}
+}
 
 
 /*// Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px)
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.header-icon {
+		padding: 0;
+		margin-top: -35px;
+		margin-bottom: 25px;
+	}
+
+	.slider-content {
+		padding-top: 0px;
+		padding-right: 0px;
+		padding-bottom: 30px;
+	}
+
+	.box-contant {
+		padding: 45px 10px 35px;
+	}
+
+	.shipping-boxs {
+		padding: 55px 0px;
+	}
+
+	.product-five {
+		height: 500px;
+		padding-top: 70px;
+		padding-left: 50px;
+		background-size: cover;
+	}
+
+	.deal-timer {
+		border: 1px solid gray;
+		margin-top: -40px;
+	}
+
+	.news-content-area {
+		margin-bottom: 30px;
+	}
+
+	.instragram-area {
+		margin-top: 40px;
+		margin-bottom: 60px;
+	}
+
+	/* ABOUT-US */
+
+	.shop-heading {
+		padding: 30px 15px 0px;
+	}
+	
+	.shop-heading {
+		margin-bottom: 40px;
+	}
+
+	.banner-title {
+		margin-bottom: 30px;
+	}
+
+	/* CHEACK-OUT */
+
+	.product-policy {
+		margin-top: 20px;
+	}
+
+	.content-heading {
+		margin-bottom: 40px;
+	}
+
+	.content-heading h2 {
+		font-size: 18px;
+	}
+
+
+	/* COMMING-SOON */
+
+	.comming-soon img {
+		margin-top: 40px;
+	}
+	
+}
 	
 
 
 /*// Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.slider-content {
+		padding-top: 0px;
+		padding-right: 0px;
+	}
+
+	.slider {
+		background-repeat: round;
+	}
+
+	.products {
+		height: 250px;
+		padding: 30px;
+	}
+
+	.product-five {
+		height: 520px;
+		padding: 30px;
+	}
+
+	.shop-heading {
+		padding: 30px 15px;
+	}
+
+	.title {
+		font-size: 30px;
+		line-height: 26px;
+	}
+
+	/* COMMING-SOON */
+
+	.comming-soon-area h2 {
+		font-size: 40px;
+	}
+
+	.comming-soon-area p {
+		font-size: 18px;
+	}
+
+	.comming-soon-area .date-number {
+		font-size: 30px;
+	}
+
+	.comming-soon-area .date-text {
+		font-size: 16px;
+	}
+
+}
 
 
 
 /*// Extra large devices (large desktops, 1200px)*/
-@media (min-width: 1200px) and (max-width: 1399.98px)
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	.shop-heading {
+		padding: 30px 15px;
+	}
+
+	/* COMMING-SOON */
+
+	.comming-soon-area h2 {
+		font-size: 50px;
+	}
+
+	.comming-soon-area p {
+		font-size: 18px;
+	}
+
+	.comming-soon-area .date-number {
+		font-size: 30px;
+	}
+
+	.comming-soon-area .date-text {
+		font-size: 16px;
+	}
+}
 
 
 /*//Extra Extra large deivces (Extra large desktops, 1400px and up)*/
-@media (min-width: 1400px)
+@media (min-width: 1400px) {
+
+}
